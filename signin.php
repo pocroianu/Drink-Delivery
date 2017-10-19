@@ -19,9 +19,10 @@
    
    if(!$line){
 	   echo "Incorrect user and pass";
+	   header("Location:main.php");
    }
-   else $_SESSION['id']=$line['id'];
+   else {$_SESSION['id']=$line['id'];
    
-   header("Location:main.php");
+   header("Location:logat.php");}
    
 ?>
