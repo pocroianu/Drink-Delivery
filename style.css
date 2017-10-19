@@ -1,0 +1,25 @@
+header{
+    padding: 1em;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+
+nav {
+    background-color: black;
+    margin: 0;
+    padding: 1em;
+}
+
+img{
+	float:right;
+    width:700px;
+	height:450px;	
+	
+}
+
+div.container {
+    width: 100%;
+
+}
